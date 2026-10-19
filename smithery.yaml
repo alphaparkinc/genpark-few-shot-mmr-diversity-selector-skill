@@ -1,0 +1,7 @@
+name: genpark-few-shot-mmr-diversity-selector-skill
+description: Maximal Marginal Relevance (MMR) exemplar selector optimizing semantic relevance and diversity for LLM prompt engineering
+version: 1.0.1
+entrypoint: mcp_server.py
+command: python
+args:
+  - mcp_server.py
